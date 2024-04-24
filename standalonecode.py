@@ -6,9 +6,9 @@ import re
 from nltk.corpus import stopwords  
 
 # Replace with your Reddit app credentials
-client_id = "l_eoAnubM4Rds1W6jjjFlw"
-client_secret = "EscSkRcswbR2jPSb22BwlX3qcdjTdg"
-user_agent = "PaleontologistSea714"
+client_id = "--"
+client_secret = "--"
+user_agent = "--"
 
 # Initialize Reddit client
 reddit = praw.Reddit(client_id=client_id,

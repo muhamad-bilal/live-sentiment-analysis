@@ -4,8 +4,24 @@ body{
     background-color: #F7DCB9;
     margin: 0;
     overflow: hidden;
-   
-}
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+   }
+  /*background animation*/
+   @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
 .container{
   display: flex;
   justify-content: center;
@@ -24,11 +40,10 @@ body{
     margin-bottom: 20px;
     }
 
-
-    .container .search-bar {
-      display: flex;
-      align-items: center;
-      width: 40%; 
+.container .search-bar {
+    display: flex;
+    align-items: center;
+    width: 40%; 
     margin: 0 auto !important;  /* Centers the search bar horizontally */
    }
    
@@ -44,8 +59,8 @@ body{
 }
 
 .search-bar input:focus {
-  outline: none; /* Removingdefault outline on focus */
-  border-color: #ccc; /* border color  focus */
+  outline: none;
+  border-color: #ccc; 
 }
 
 .search-bar button {
@@ -58,22 +73,22 @@ body{
 }
 
 .search-bar button:hover {
-  background-color: rgba(0, 0, 0, 0.1); /*  hover  */
+  background-color: rgba(0, 0, 0, 0.1); 
 }
 
 .search-bar button i {
-  font-size: 1.2rem; /* icon size */
-  color: #333; /*  icon color  */
+  font-size: 1.2rem; 
+  color: #333; 
 }
 
 .copyright-notice {
   text-align: center;  
-  font-size: 1.5rem; /* Adjust font size as needed */
-  margin-bottom: 20px; /* Space between copyright and main text */  
+  font-size: 1.5rem; 
+  margin-bottom: 20px;   
 }
 
 .copyright-notice a {
-  color: #333; /* Link color */
+  color: #333; 
   text-decoration: none;
 }
 
@@ -81,20 +96,18 @@ body{
   text-decoration: underline;
 }
 
-/* Style for the GitHub icon */
 .fab.fa-github { 
-  font-size: 1rem; /* Adjust icon size */
-  margin-left: 5px;  /* Spacing from name */
+  font-size: 1rem; 
+  margin-left: 5px; 
 } 
 
 
 footer {
   width: 100%; 
   margin-top: auto; 
-  background-color: #f0f0f0;  /* Example background color */
+  background-color: rgba(255, 255, 255, 0.7); 
   padding: 15px 0; 
   position: fixed;
   bottom: 0;
-  
 }
 

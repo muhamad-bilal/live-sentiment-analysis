@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ai Project(Spring '24)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='loader.css') }}"> -->
 </head>
 <body>
     <div class="container">
@@ -17,38 +17,20 @@
           <button type="submit"><i class="fas fa-search"></i></button>
         </form>
       </div>
-
-      <div id="line-loader" style="display: none; --hue: 223; --bg: hsl(var(--hue),90%,90%); --fg: hsl(var(--hue),90%,10%); --trans-dur: 0.3s; --trans-timing: cubic-bezier(0.65, 0, 0.35, 1); font-size: calc(14px + (60 - 14) * (100vw - 280px) / (3840 - 280));" class="pl">
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-        <div class="pl__chip"></div>
-    </div>
-    
-    <div class="container">
-      <form class="search-bar" action="/analyze" method="POST">
-        </form>
+        
     
       <div id="result"></div> </div> 
     
       <footer>
         <div class="copyright-notice">
             <p>
-               &copy; <a href="https://github.com/muhamad-bilal">Muhammad Bilal</a> <i class="fab fa-github"></i> 
+                <a href="https://github.com/muhamad-bilal">Muhammad Bilal</a> <i class="fab fa-github"></i> 
                &nbsp; <a href="https://github.com/rimocide">Abdullah Mustafa</a> <i class="fab fa-github"></i>
             </p>
           </div>
       </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+
     <script src="{{ url_for('static', filename='script.js') }}"></script> 
 
 </body>

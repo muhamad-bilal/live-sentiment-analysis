@@ -39,7 +39,7 @@ body{
     background-color: rgba(255, 255, 255, 0.7); 
     padding: 20px;
     border: 2px solid #ddd;
-    margin: 20px auto; /* Space above and below the infobox */
+    margin: 20px auto; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,23 +51,22 @@ body{
 /* Image Styling */
 .infobox img {
     margin-bottom: 10px;
-    max-width: 100%;    /* Let it fill the box width*/
-    max-height: 200px;         /* Maintain aspect ratio */
+    max-width: 100%;    
+    max-height: 200px;  
     object-fit: cover; 
 }
 
 
-/* Sentiment Result Styling */
+
 .sentiment-result {
-    text-align: center; /* Center the sentiment */
+    text-align: center; 
 }
 
 
 .summary-box {
-    background-color: #fff; /* Or a slightly different color than the main infobox */
+    background-color: #fff; 
     border: 1px solid #ddd; 
     padding: 15px;
-    margin-top: 15px;      /* Space between summary and other content */
-    /* box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
+    margin-top: 15px;      
     margin-bottom: 20px;
 }
