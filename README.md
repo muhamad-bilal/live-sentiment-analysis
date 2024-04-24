@@ -15,7 +15,7 @@ Here're some of the project's best features:
 *   Dynamic Sentiment Detection: Analyzes text from Reddit submissions or comments and determines the overall sentiment (positive negative or neutral) in real-time.
 *   Visual Feedback: Uses clear visual indicators (e.g. colors emojis) to represent the detected sentiment.
 *   User-Friendly Interface: Intuitive input for selecting Reddit content and an easily interpretable results display.
-*   User-Friendly Interface: Intuitive input for selecting Reddit content and an easily interpretable results display.
+
 
 <h2>🛠️ Installation Steps:</h2>
 
