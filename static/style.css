@@ -1,0 +1,100 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+body{
+    background-color: #F7DCB9;
+    margin: 0;
+    overflow: hidden;
+   
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.head{
+    display: flex;
+    justify-content: center;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 20px;
+    }
+
+
+    .container .search-bar {
+      display: flex;
+      align-items: center;
+      width: 40%; 
+    margin: 0 auto !important;  /* Centers the search bar horizontally */
+   }
+   
+
+.search-bar input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  flex: 1; 
+  transition: all 0.2s ease-in-out; 
+}
+
+.search-bar input:focus {
+  outline: none; /* Removingdefault outline on focus */
+  border-color: #ccc; /* border color  focus */
+}
+
+.search-bar button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent; 
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-bar button:hover {
+  background-color: rgba(0, 0, 0, 0.1); /*  hover  */
+}
+
+.search-bar button i {
+  font-size: 1.2rem; /* icon size */
+  color: #333; /*  icon color  */
+}
+
+.copyright-notice {
+  text-align: center;  
+  font-size: 1.5rem; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Space between copyright and main text */  
+}
+
+.copyright-notice a {
+  color: #333; /* Link color */
+  text-decoration: none;
+}
+
+.copyright-notice a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the GitHub icon */
+.fab.fa-github { 
+  font-size: 1rem; /* Adjust icon size */
+  margin-left: 5px;  /* Spacing from name */
+} 
+
+
+footer {
+  width: 100%; 
+  margin-top: auto; 
+  background-color: #f0f0f0;  /* Example background color */
+  padding: 15px 0; 
+  position: fixed;
+  bottom: 0;
+  
+}
+

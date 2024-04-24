@@ -1,0 +1,73 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+h1{
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.result-container h1 { 
+    text-align: center;
+}
+
+body{
+    padding: 30px;
+}
+/* The infobox itself */
+.infobox {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border: 2px solid #ddd;
+    margin: 20px auto; /* Space above and below the infobox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+/* Image Styling */
+.infobox img {
+    margin-bottom: 10px;
+    max-width: 100%;    /* Let it fill the box width*/
+    max-height: 200px;         /* Maintain aspect ratio */
+    object-fit: cover; 
+}
+
+
+/* Sentiment Result Styling */
+.sentiment-result {
+    text-align: center; /* Center the sentiment */
+}
+
+
+.summary-box {
+    background-color: #fff; /* Or a slightly different color than the main infobox */
+    border: 1px solid #ddd; 
+    padding: 15px;
+    margin-top: 15px;      /* Space between summary and other content */
+    /* box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
+    margin-bottom: 20px;
+}
