@@ -37,7 +37,6 @@ cd live-sentiment-analysis
 see app.py imports and install all of them.
 ```
 
-<p>4. Set up environment variables for your Reddit API credentials (CLIENT_ID CLIENT_SECRET etc.)</p>
 
 <p>5. Get your reddit api credentials from here</p>
 
