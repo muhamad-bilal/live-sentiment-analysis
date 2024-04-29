@@ -3,7 +3,11 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+    overflow: hidden;
 }
+
+
+
 h1{
     font-weight: 300;
     color: #fff;
@@ -70,3 +74,6 @@ body{
     margin-top: 15px;      
     margin-bottom: 20px;
 }
+
+
+  
